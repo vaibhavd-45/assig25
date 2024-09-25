@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Store</title>
+    <style>
+         body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+  .header .nav   
+ {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+  }
+  .main {
+    padding: 20px;
+  }
+  .main .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main .product {
+    width: 24%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  .main .product img {
+    width: 100%;
+    height: auto;
+  }
+  .main .product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  .main .product p {
+    margin: 5px 0;
+  }
+  .main .product .price {
+    font-weight: bold;
+  }
+  .main .banner {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  .main .banner h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Mi Store</h1>
+        <nav class="nav">
+            <a href="#">Store</a>
+            <a href="#">Phone</a>
+            <a href="#">TV & Smart Home</a>
+            <a href="#">Tablet</a>
+            <a href="#">LifeStyle</a>
+            <a href="#">Discover</a>
+            <a href="#">Support</a>
+            <a href="#">Q</a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="product-container">
+            <div class="product">
+                <img src="https://www.mi.com/in/product/redmi-earphones-2c/" alt="Redmi Earphones">
+                <h3>Redmi Earphones</h3>
+                <p>25% off</p>
+                <p class="price">₹449</p>
+            </div>
+            <div class="product">
+                <img src="https://www.mi.com/in/product/mi-dual-driver-earphones/" alt="Mi Dual Driver In-ear Earphones">
+                <h3>Mi Dual Driver In-ear Earphones</h3>
+                <p>20% off</p>
+                <p class="price">₹799</p>
+            </div>
+            <div class="product">
+                <img src="https://www.mi.com/in/product/redmi-sonicbass-wireless-earphones-2/" alt="Redmi Sonic Bass Wireless Earphones 2">
+                <h3>Redmi Sonic Bass Wireless Earphones 2</h3>
+                <p>56% off</p>
+                <p class="price">₹1,299</p>
+            </div>
+            <div class="product">
+                <img src="https://www.mi.com/in/product/mi-portable-bluetooth-speaker-16w-blue/" alt="Mi Portable Bluetooth Speaker (16W)">
+                <h3>Mi Portable Bluetooth Speaker (16W)</h3>
+                <p>28% off</p>
+                <p class="price">₹2,499</p>
+            </div>
+        </section>
+        <section class="banner">
+            <h2>Save Up To 65% On Chargers & Cables</h2>
+            <p>Free Delivery on All Products</p>
+            <button>Buy Now</button>
+        </section>
+        <section class="product-container">
+            </section>
+    </main>
+    <footer class="footer">
+        &copy; 2023 Mi Store
+    </footer>
+</body>
+</html>
